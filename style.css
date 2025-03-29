@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('assets/sala.webp');
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background-color: #284b43b0;   
+    height: 650px;
+    width: 300px;
+    border: #1b3d35;
+    border-radius: 25px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 16px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #284b43;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #1b3d35;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #ff1100;
+}
+
+#resultado {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1eff00;
+    margin-top: 15px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #284b43;
+    color: white;
+    text-align: center; 
+    padding: 10px 0; 
+    font-size: 16px;
+    font-weight: bold;
+}
+

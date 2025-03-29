@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Calculadora de média</title>
+</head>
+<body>
+    <div>
+        <h2>Digite as notas</h2>
+        <label for="primeiro">1° Bimestre:</label>
+        <input type="number" id="primeiro" required> <br><br>
+        <label for="segundo">2° Bimestre:</label>
+        <input type="number" id="segundo"><br><br>
+        <label for="terceiro">3° Bimestre:</label>
+        <input type="number" id="terceiro"><br><br>
+        <label for="quarto">4° Bimestre:</label>
+        <input type="number" id="quarto"><br><br>
+        <button onclick="calcularMedia()">Calcular Média</button>
+        <button onclick="limparResultado()">Limpar</button>
+        <p id="resultado"></p>
+    </div>
+    <footer>Prof. Eskarlathy</footer>
+    <script src="script.js"></script>
+</body>
+</html>
