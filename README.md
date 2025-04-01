@@ -23,3 +23,7 @@ Embora seja um projeto inicial, ele mostra como podemos usar a programação par
 1. Clone o repositório para sua máquina local:
    ```bash
    git clone https://github.com/LeticiaLemeHub/Calculadora-de-Notas-Escolares.git
+
+## Link do Projeto 🔗
+
+   https://calculadora-de-notas-escolares.vercel.app/
